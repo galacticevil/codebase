@@ -5,6 +5,7 @@ echo '<p>We have an external Third Party Vendor lib which we will include as a S
 
 require('vendor/dummy/dummy/test.php');
 
+// test
 $test = new Dummy\testClass('fred');
 echo '<pre>' . print_r($test->getVal(), 1) . '</pre>';
 
